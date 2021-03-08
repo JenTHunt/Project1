@@ -1,26 +1,36 @@
-.navbar{
+.nav{
     background-color: rgb(15, 107, 107);
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.navbar .navbar-brand{
-    color: white;
-    font-size: xx-large;
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
-.navbar .navbar-nav .nav-item .nav-link{
+ul li a{
     color: white;
-    font-size: large;
+    padding: 10px;
+    align-items: baseline;
+    text-decoration: none;
 }
 
 body{
-    background-color: rgb(162, 231, 231);
+    background-color: rgb(184, 243, 243);
 }
 
 .card{
-    background-color: rgb(218, 218, 140);
+    background-color: rgb(221, 221, 155);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    min-height: 14cm;
 }
 
 .container{
-    margin: 20;
-    padding: 20;
+    display:flex;
+    justify-content: center;
 }
