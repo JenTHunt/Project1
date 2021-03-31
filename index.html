@@ -192,7 +192,7 @@
                 var city = $('#city').val();
                 var cityString = '${city}'
 
-                var url = "https://api.openweathermap.org/data/2.5/forecast?q=${cityString}&appid=${apikey}"
+                var url = "https://api.openweathermap.org/data/2.5/weather?q=${cityString}&appid=${apikey}&units=imperial"
 
                 $.get(url), function(res) {
                     console.log(res)
